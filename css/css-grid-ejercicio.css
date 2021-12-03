@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 71.8rem;
+  height: 60.9rem;
+}
+
+.primer {
+  padding-top: 2.8rem;
+  padding-left: 3.3rem;
+  padding-right: 3.3rem;
+  padding-bottom: 3.2rem;
+}
+
+.separacion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2.3rem;
+}
+.rojo {
+  background-color: #ff8181;
+}
+
+.rojo {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.gris {
+  background-color: #646464;
+}
+.gris :nth-child(1) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.gris :nth-child(2) {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.gris :nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.gris :nth-child(4) {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.azul {
+  width: 65.2rem;
+  height: 16.3rem;
+  background-color: #70aaff;
+}
+.azul {
+  grid-row: 3/4;
+  grid-column: 1/4;
+}

@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2.7rem 4.5rem;
+}
+
+img {
+  width: 15rem;
+}
+
+.rectangulo-link {
+  width: 33.5rem;
+  height: 6.3rem;
+  padding: 1.8rem 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.9rem;
+  background-color: turquoise;
+}
+
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.verde {
+  width: 15rem;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 1.2rem 4.2rem;
+  background-color: rgb(51, 187, 80);
+  border-style: none;
+}
+
+.separacion {
+  display: grid;
+  grid-template-columns: 15rem 1fr 15rem;
+  gap: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+}

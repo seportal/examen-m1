@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 2;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  background-color: #f8f8f8;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin-top: 1rem;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.6rem 4rem;
+}
+.rectangulo1 {
+  background-color: #b352ff;
+  width: 165px;
+  height: 63px;
+  margin: 2.6rem 4rem;
+}
+.logo img {
+  height: 35px;
+  width: 68px;
+  margin-left: 5rem;
+  text-align: center;
+}
+.rectangulo2 {
+  background-color: #f0f0f0;
+  width: 50.5rem;
+  height: 6.3rem;
+  display: flex;
+  margin: 2.6rem 4rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.rectangulo1,
+.rectangulo2 a {
+  text-decoration: none;
+  color: #000;
+}
+.rectangulo3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.rectangulo3 {
+  background-color: rgb(152, 187, 119);
+  width: 162px;
+  height: 59px;
+  margin: 2.6rem 4rem;
+}
